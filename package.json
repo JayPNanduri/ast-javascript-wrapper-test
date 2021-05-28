@@ -1,0 +1,23 @@
+{
+  "name": "ast-javascript-wrapper-test",
+  "version": "1.0.0",
+  "description": "Test Javascript wrapper",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "ast-cli-javascript-wrapper": "1.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayPNanduri/ast-javascript-wrapper-test.git"
+  },
+  "author": "Jay Nanduri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayPNanduri/ast-javascript-wrapper-test/issues"
+  },
+  "homepage": "https://github.com/JayPNanduri/ast-javascript-wrapper-test#readme"
+}
