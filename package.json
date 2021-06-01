@@ -4,7 +4,7 @@
   "description": "Test Javascript wrapper",
   "main": "./dist/index.js",
   "dependencies": {
-    "ast-cli-javascript-wrapper": "1.0.3"
+    "@checkmarxdev/ast-cli-javascript-wrapper": "^1.0.3"
   },
   "scripts": {
     "build": "tsc",

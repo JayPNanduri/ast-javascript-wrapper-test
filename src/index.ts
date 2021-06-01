@@ -1,10 +1,9 @@
-import {CxAuthCall} from "ast-cli-javascript-wrapper/src/main/CxAuthCall";
-import {CxScanConfigCall} from "ast-cli-javascript-wrapper/src/main/CxScanConfigCall";
-import {CxParamType} from "ast-cli-javascript-wrapper/src/main/CxParamType";
+import {CxAuthCall} from '@checkmarxdev/ast-cli-javascript-wrapper/src/main/CxAuthCall';
+import {CxScanConfigCall} from "@checkmarxdev/ast-cli-javascript-wrapper/src/main/CxScanConfigCall";
+import {CxParamType} from "@checkmarxdev/ast-cli-javascript-wrapper/src/main/CxParamType";
 let cxScanConfig = new CxScanConfigCall();
 cxScanConfig.baseUri="https://eu.ast.checkmarx.net";
 cxScanConfig.clientId = "ast-github-action";
-cxScanConfig.clientSecret = "1985057d-7479-4a01-82c0-06d0edc41228";
 cxScanConfig.pathToExecutable = "";
 let params: Map<CxParamType,string> = new Map<CxParamType,string>();
 params.set(CxParamType.PROJECT_NAME,"JayWrapperTestInt");
