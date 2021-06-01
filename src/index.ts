@@ -4,6 +4,7 @@ import {CxParamType} from "@checkmarxdev/ast-cli-javascript-wrapper/src/main/CxP
 let cxScanConfig = new CxScanConfigCall();
 cxScanConfig.baseUri="https://eu.ast.checkmarx.net";
 cxScanConfig.clientId = "ast-github-action";
+cxScanConfig.clientSecret="";
 cxScanConfig.pathToExecutable = "";
 let params: Map<CxParamType,string> = new Map<CxParamType,string>();
 params.set(CxParamType.PROJECT_NAME,"JayWrapperTestInt");
